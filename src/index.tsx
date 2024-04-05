@@ -7,6 +7,7 @@ type SiftReactNativeType = {
     disallowCollectingLocationData: boolean,
     serverUrlFormat: string
   ): void;
+  setPageName(pageName: String): void;
   setUserId(userId: string): void;
   unsetUserId(): void;
   upload(): void;
